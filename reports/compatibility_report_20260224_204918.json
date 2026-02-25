@@ -1,0 +1,8 @@
+{
+    "expected_version": "1.0",
+    "contract_version": "2.0",
+    "comparison_result": "MAJOR_UPGRADE",
+    "compatibility_mode": "override",
+    "allowed": true,
+    "decision": "SOFT_PASS_DRIFT"
+}

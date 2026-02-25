@@ -1,0 +1,15 @@
+/*
+| Profile     | Behavior                          |
+| ----------- | --------------------------------- |
+| batch       | Hard fail + write audit file      |
+| streaming   | Soft fail + continue              |
+| micro_batch | Diff detection + conditional fail |
+| enterprise  | Multi-version drift tracking      |
+*/
+
+{
+  "expected_version": "1.0",
+  "compatibility_mode": "strict",
+  "execution_profile": "streaming",
+  "override_on_failure": true
+}

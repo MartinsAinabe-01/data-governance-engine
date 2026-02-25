@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "fields": {
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "spend": {
+      "type": "int",
+      "required": true
+    }
+  }
+}

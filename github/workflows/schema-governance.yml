@@ -1,0 +1,27 @@
+name: Schema Governance Gate
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  compatibility-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run Governance Compatibility Check
+        run: |
+          python -m pipelines.batch_pipeline customers.csv output.csv --contract contracts/contract_v2.json --log-level INFO

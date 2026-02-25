@@ -1,0 +1,12 @@
+{
+    "timestamp": 1771968101.368488,
+    "expected_version": "1.0",
+    "contract_version": "2.0",
+    "comparison_result": "MAJOR_UPGRADE",
+    "compatibility_mode": "override",
+    "allowed": true,
+    "decision": "SOFT_PASS_DRIFT",
+    "severity": "WARNING",
+    "drift_detected": true,
+    "execution_profile": "batch"
+}

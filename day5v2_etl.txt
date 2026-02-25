@@ -1,0 +1,25 @@
+import csv
+
+input_file = "customers.csv"
+output_file = "city_summary.csv"
+
+with open(input_file, mode="r") as file:
+    reader = csv.DictReader(file)
+    results = []
+
+    for row in reader:
+        city = row["city"]
+	totalspend += int(row["spend"])
+
+        if city == "Calgary" and spend > 1000:
+            row["spend_category"] = "High"
+            results.append(row)
+
+with open(output_file, mode="w", newline="") as file:
+    fieldnames = ["city", "spend"]
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerows(results)
+
+print("ETL Process Complete.")

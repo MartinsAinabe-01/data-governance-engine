@@ -1,0 +1,12 @@
+{
+    "timestamp": 1771971857.7742395,
+    "expected_version": "1.0",
+    "contract_version": "2.0",
+    "comparison_result": "MAJOR_UPGRADE",
+    "compatibility_mode": "strict",
+    "allowed": false,
+    "decision": "HARD_FAIL",
+    "severity": "CRITICAL",
+    "drift_detected": true,
+    "execution_profile": "streaming"
+}

@@ -1,0 +1,18 @@
+{
+    "timestamp": 1771973657.8975139,
+    "expected_version": "1.0",
+    "contract_version": "2.0",
+    "comparison_result": "MAJOR_UPGRADE",
+    "compatibility_mode": "strict",
+    "allowed": false,
+    "decision": "HARD_FAIL",
+    "severity": "CRITICAL",
+    "drift_detected": true,
+    "execution_profile": "batch",
+    "field_drift": {
+        "added_fields": [],
+        "removed_fields": [],
+        "type_changes": [],
+        "required_changes": []
+    }
+}

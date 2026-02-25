@@ -1,0 +1,10 @@
+id,name,age,city,spend
+1,John,34,Calgary,1200
+2,Alice,29,Edmonton,800
+3,David,45,Calgary,1500
+4,Sarah,22,Vancouver,400
+5,Mark,37,Calgary,2000
+6,Linda,31,Edmonton,950
+7,Tom,,Calgary,900
+8,Mary,28,Calgary,abc
+9,Steve,33,,1500

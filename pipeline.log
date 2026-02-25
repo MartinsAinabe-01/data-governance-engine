@@ -1,0 +1,436 @@
+2026-02-22 09:59:28,838 | INFO | ===================================
+2026-02-22 09:59:28,838 | INFO | PIPELINE EXECUTION START
+2026-02-22 09:59:28,838 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 09:59:28,839 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 09:59:28,840 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 09:59:28,840 | INFO | Total Rows Processed : 9
+2026-02-22 09:59:28,840 | INFO | Valid Rows           : 7
+2026-02-22 09:59:28,840 | INFO | Rejected Rows        : 2
+2026-02-22 09:59:28,840 | INFO | ---------------------------------
+2026-02-22 09:59:28,841 | INFO | Duration (seconds)   : 0.002
+2026-02-22 09:59:28,841 | INFO | PIPELINE EXECUTION END
+2026-02-22 09:59:28,841 | INFO | ===================================
+2026-02-22 13:19:06,745 | INFO | ===================================
+2026-02-22 13:19:06,746 | INFO | PIPELINE EXECUTION START
+2026-02-22 13:19:06,746 | INFO | Input File  : customers.csv
+2026-02-22 13:19:06,746 | INFO | Output File : city_average.csv
+2026-02-22 13:19:06,746 | INFO | Reject File : rejects.csv
+2026-02-22 13:19:06,747 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 13:19:06,747 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 13:19:06,748 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 13:19:06,748 | INFO | Total Rows Processed : 9
+2026-02-22 13:19:06,748 | INFO | Valid Rows           : 7
+2026-02-22 13:19:06,748 | INFO | Rejected Rows        : 2
+2026-02-22 13:19:06,748 | INFO | ---------------------------------
+2026-02-22 13:19:06,749 | INFO | Duration (seconds)   : 0.0028
+2026-02-22 13:19:06,749 | INFO | PIPELINE EXECUTION END
+2026-02-22 13:19:06,749 | INFO | ===================================
+2026-02-22 13:36:53,311 | INFO | ===================================
+2026-02-22 13:36:53,311 | INFO | PIPELINE EXECUTION START
+2026-02-22 13:36:53,311 | INFO | Input File  : customers.csv
+2026-02-22 13:36:53,311 | INFO | Output File : output2.csv
+2026-02-22 13:36:53,312 | INFO | Reject File : my_rejects.csv
+2026-02-22 13:36:53,312 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 13:36:53,312 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 13:36:53,313 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 13:36:53,313 | INFO | Total Rows Processed : 9
+2026-02-22 13:36:53,313 | INFO | Valid Rows           : 7
+2026-02-22 13:36:53,314 | INFO | Rejected Rows        : 2
+2026-02-22 13:36:53,314 | INFO | ---------------------------------
+2026-02-22 13:36:53,314 | INFO | Duration (seconds)   : 0.0025
+2026-02-22 13:36:53,314 | INFO | PIPELINE EXECUTION END
+2026-02-22 13:36:53,314 | INFO | ===================================
+2026-02-22 13:41:37,203 | INFO | ===================================
+2026-02-22 13:41:37,203 | INFO | PIPELINE EXECUTION START
+2026-02-22 13:41:37,203 | INFO | Input File  : wrongfile.csv
+2026-02-22 13:41:37,203 | INFO | Output File : output.csv
+2026-02-22 13:41:37,203 | INFO | Reject File : rejects.csv
+2026-02-22 13:47:31,146 | ERROR | Input file does not exist: wrongfile.csv
+2026-02-22 13:58:03,956 | INFO | ===================================
+2026-02-22 13:58:03,956 | INFO | PIPELINE EXECUTION START
+2026-02-22 13:58:03,956 | INFO | Input File  : customers.csv
+2026-02-22 13:58:03,956 | INFO | Output File : output.csv
+2026-02-22 13:58:03,957 | INFO | Reject File : rejects.csv
+2026-02-22 13:58:03,957 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 13:58:03,957 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 13:58:03,958 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 13:58:03,958 | INFO | Total Rows Processed : 9
+2026-02-22 13:58:03,958 | INFO | Valid Rows           : 7
+2026-02-22 13:58:03,958 | INFO | Rejected Rows        : 2
+2026-02-22 13:58:03,958 | INFO | ---------------------------------
+2026-02-22 13:58:03,958 | INFO | Duration (seconds)   : 0.0021
+2026-02-22 13:58:03,958 | INFO | PIPELINE EXECUTION END
+2026-02-22 13:58:03,958 | INFO | ===================================
+2026-02-22 14:15:16,093 | INFO | ===================================
+2026-02-22 14:15:16,094 | INFO | PIPELINE EXECUTION START
+2026-02-22 14:15:16,094 | INFO | Input File  : customers.csv
+2026-02-22 14:15:16,094 | INFO | Output File : output.csv
+2026-02-22 14:15:16,095 | INFO | Reject File : rejects.csv
+2026-02-22 14:15:16,095 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 14:15:16,095 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 14:15:16,096 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 14:15:16,096 | INFO | Total Rows Processed : 9
+2026-02-22 14:15:16,096 | INFO | Valid Rows           : 7
+2026-02-22 14:15:16,096 | INFO | Rejected Rows        : 2
+2026-02-22 14:15:16,097 | INFO | ---------------------------------
+2026-02-22 14:15:16,097 | INFO | Duration (seconds)   : 0.0028
+2026-02-22 14:15:16,097 | INFO | PIPELINE EXECUTION END
+2026-02-22 14:15:16,097 | INFO | ===================================
+2026-02-22 14:15:47,381 | INFO | ===================================
+2026-02-22 14:15:47,381 | INFO | PIPELINE EXECUTION START
+2026-02-22 14:15:47,381 | INFO | Input File  : customers.csv
+2026-02-22 14:15:47,381 | INFO | Output File : output.csv
+2026-02-22 14:15:47,382 | INFO | Reject File : bad_rows.csv
+2026-02-22 14:15:47,382 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 14:15:47,382 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 14:15:47,383 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 14:15:47,384 | INFO | Total Rows Processed : 9
+2026-02-22 14:15:47,384 | INFO | Valid Rows           : 7
+2026-02-22 14:15:47,384 | INFO | Rejected Rows        : 2
+2026-02-22 14:15:47,384 | INFO | ---------------------------------
+2026-02-22 14:15:47,384 | INFO | Duration (seconds)   : 0.0027
+2026-02-22 14:15:47,385 | INFO | PIPELINE EXECUTION END
+2026-02-22 14:15:47,385 | INFO | ===================================
+2026-02-22 17:39:39,845 | INFO | ===================================
+2026-02-22 17:39:39,846 | INFO | PIPELINE EXECUTION START
+2026-02-22 17:39:39,846 | INFO | Input File  : customers.csv
+2026-02-22 17:39:39,846 | INFO | Output File : output.csv
+2026-02-22 17:39:39,846 | INFO | Reject File : rejects.csv
+2026-02-22 17:39:39,847 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 17:39:39,847 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 17:39:39,848 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 17:39:39,849 | INFO | Total Rows Processed : 9
+2026-02-22 17:39:39,849 | INFO | Valid Rows           : 7
+2026-02-22 17:39:39,849 | INFO | Rejected Rows        : 2
+2026-02-22 17:39:39,849 | INFO | Duration (seconds)   : 0.0033
+2026-02-22 17:39:39,850 | INFO | ---------------------------------
+2026-02-22 17:39:39,850 | INFO | PIPELINE EXECUTION END
+2026-02-22 17:39:39,850 | INFO | ===================================
+2026-02-22 20:11:19,348 | INFO | ===================================
+2026-02-22 20:11:19,349 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:11:19,349 | INFO | Input File  : customers.csv
+2026-02-22 20:11:19,349 | INFO | Output File : output.csv
+2026-02-22 20:11:19,349 | INFO | Reject File : rejects.csv
+2026-02-22 20:11:19,350 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:11:19,350 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 20:22:01,302 | INFO | ===================================
+2026-02-22 20:22:01,302 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:22:01,302 | INFO | Input File  : customers.csv
+2026-02-22 20:22:01,302 | INFO | Output File : output.csv
+2026-02-22 20:22:01,303 | INFO | Reject File : rejects.csv
+2026-02-22 20:22:01,303 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:22:01,303 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 20:22:01,304 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 20:22:01,305 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 20:22:01,305 | INFO | Total Rows Processed : 9
+2026-02-22 20:22:01,305 | INFO | Valid Rows           : 7
+2026-02-22 20:22:01,305 | INFO | Rejected Rows        : 2
+2026-02-22 20:22:01,306 | INFO | Duration (seconds)   : 0.0031
+2026-02-22 20:22:01,306 | INFO | ---------------------------------
+2026-02-22 20:22:01,306 | INFO | PIPELINE EXECUTION END
+2026-02-22 20:22:01,306 | INFO | ===================================
+2026-02-22 20:27:55,692 | INFO | ===================================
+2026-02-22 20:27:55,692 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:27:55,692 | INFO | Input File  : customers.csv
+2026-02-22 20:27:55,693 | INFO | Output File : output.csv
+2026-02-22 20:27:55,693 | INFO | Reject File : rejects.csv
+2026-02-22 20:27:55,693 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:27:55,694 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: invalid literal for int() with base 10: 'abc'
+2026-02-22 20:27:55,694 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing city
+2026-02-22 20:27:55,695 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 20:27:55,695 | INFO | Total Rows Processed : 9
+2026-02-22 20:27:55,695 | INFO | Valid Rows           : 7
+2026-02-22 20:27:55,695 | INFO | Rejected Rows        : 2
+2026-02-22 20:27:55,695 | INFO | Duration (seconds)   : 0.0028
+2026-02-22 20:27:55,695 | INFO | ---------------------------------
+2026-02-22 20:27:55,696 | INFO | PIPELINE EXECUTION END
+2026-02-22 20:27:55,696 | INFO | ===================================
+2026-02-22 20:34:59,662 | INFO | ===================================
+2026-02-22 20:34:59,662 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:34:59,662 | INFO | Input File  : customers.csv
+2026-02-22 20:34:59,663 | INFO | Output File : output.csv
+2026-02-22 20:34:59,663 | INFO | Reject File : rejects.csv
+2026-02-22 20:34:59,663 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:34:59,663 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 20:34:59,664 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 20:34:59,665 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 20:34:59,665 | INFO | Total Rows Processed : 9
+2026-02-22 20:34:59,665 | INFO | Valid Rows           : 7
+2026-02-22 20:34:59,665 | INFO | Rejected Rows        : 2
+2026-02-22 20:34:59,665 | INFO | Duration (seconds)   : 0.0026
+2026-02-22 20:34:59,665 | INFO | ---------------------------------
+2026-02-22 20:34:59,665 | INFO | PIPELINE EXECUTION END
+2026-02-22 20:34:59,665 | INFO | ===================================
+2026-02-22 20:37:27,732 | INFO | ===================================
+2026-02-22 20:37:27,733 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:37:27,733 | INFO | Input File  : customers.csv
+2026-02-22 20:37:27,733 | INFO | Output File : output.csv\
+2026-02-22 20:37:27,733 | INFO | Reject File : rejects.csv
+2026-02-22 20:37:27,734 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:37:27,734 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 20:37:27,734 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 20:39:57,172 | INFO | ===================================
+2026-02-22 20:39:57,172 | INFO | PIPELINE EXECUTION START
+2026-02-22 20:39:57,173 | INFO | Input File  : customers.csv
+2026-02-22 20:39:57,173 | INFO | Output File : output.csv
+2026-02-22 20:39:57,173 | INFO | Reject File : rejects.csv
+2026-02-22 20:39:57,173 | INFO | Loaded Contract Version: 1.0
+2026-02-22 20:39:57,174 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 20:39:57,174 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 20:39:57,175 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 20:39:57,175 | INFO | Total Rows Processed : 9
+2026-02-22 20:39:57,175 | INFO | Valid Rows           : 7
+2026-02-22 20:39:57,175 | INFO | Rejected Rows        : 2
+2026-02-22 20:39:57,176 | INFO | Duration (seconds)   : 0.0031
+2026-02-22 20:39:57,176 | INFO | ---------------------------------
+2026-02-22 20:39:57,176 | INFO | PIPELINE EXECUTION END
+2026-02-22 20:39:57,176 | INFO | ===================================
+2026-02-22 21:18:54,274 | INFO | ===================================
+2026-02-22 21:18:54,274 | INFO | PIPELINE EXECUTION START
+2026-02-22 21:18:54,275 | INFO | Input File  : customers.csv
+2026-02-22 21:18:54,275 | INFO | Output File : output.csv
+2026-02-22 21:18:54,275 | INFO | Reject File : rejects.csv
+2026-02-22 21:18:54,275 | INFO | Loaded Contract Version: 1.0
+2026-02-22 21:18:54,276 | ERROR | Rejected row: {'id': '1', 'name': 'John', 'age': '34', 'city': 'Calgary', 'spend': '1200'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,279 | ERROR | Rejected row: {'id': '2', 'name': 'Alice', 'age': '29', 'city': 'Edmonton', 'spend': '800'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,279 | ERROR | Rejected row: {'id': '3', 'name': 'David', 'age': '45', 'city': 'Calgary', 'spend': '1500'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,279 | ERROR | Rejected row: {'id': '4', 'name': 'Sarah', 'age': '22', 'city': 'Vancouver', 'spend': '400'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,279 | ERROR | Rejected row: {'id': '5', 'name': 'Mark', 'age': '37', 'city': 'Calgary', 'spend': '2000'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,279 | ERROR | Rejected row: {'id': '6', 'name': 'Linda', 'age': '31', 'city': 'Edmonton', 'spend': '950'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,280 | ERROR | Rejected row: {'id': '7', 'name': 'Tom', 'age': '', 'city': 'Calgary', 'spend': '900'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,280 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:18:54,280 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: name 'violation_counter' is not defined
+2026-02-22 21:27:20,506 | INFO | ===================================
+2026-02-22 21:27:20,506 | INFO | PIPELINE EXECUTION START
+2026-02-22 21:27:20,507 | INFO | Loaded Contract Version: 1.0
+2026-02-22 21:27:20,508 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 21:27:20,508 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 21:27:20,509 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 21:27:20,509 | INFO | Total Rows Processed : 9
+2026-02-22 21:27:20,509 | INFO | Valid Rows           : 7
+2026-02-22 21:27:20,509 | INFO | Rejected Rows        : 2
+2026-02-22 21:27:20,509 | INFO | Duration (seconds)   : 0.0028
+2026-02-22 21:27:20,509 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-22 21:27:20,509 | INFO | Contract Version     : 1.0
+2026-02-22 21:27:20,510 | INFO | Contract Field Count : 2
+2026-02-22 21:27:20,533 | INFO | ---------------------------------
+2026-02-22 21:27:20,533 | INFO | PIPELINE EXECUTION END
+2026-02-22 21:27:20,533 | INFO | ===================================
+2026-02-22 21:33:03,986 | INFO | ===================================
+2026-02-22 21:33:03,986 | INFO | PIPELINE EXECUTION START
+2026-02-22 21:33:03,987 | INFO | Loaded Contract Version: 1.0
+2026-02-22 21:33:03,987 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 21:33:03,987 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 21:33:03,988 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 21:33:03,988 | INFO | Total Rows Processed : 9
+2026-02-22 21:33:03,988 | INFO | Valid Rows           : 7
+2026-02-22 21:33:03,988 | INFO | Rejected Rows        : 2
+2026-02-22 21:33:03,989 | INFO | Duration (seconds)   : 0.002
+2026-02-22 21:33:03,989 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-22 21:33:03,989 | INFO | Contract Version     : 1.0
+2026-02-22 21:33:03,989 | INFO | Contract Field Count : 2
+2026-02-22 21:33:03,996 | INFO | ---------------------------------
+2026-02-22 21:33:03,996 | INFO | PIPELINE EXECUTION END
+2026-02-22 21:33:03,996 | INFO | ===================================
+2026-02-22 21:37:03,805 | INFO | ===================================
+2026-02-22 21:37:03,805 | INFO | PIPELINE EXECUTION START
+2026-02-22 21:37:03,805 | INFO | Loaded Contract Version: 1.0
+2026-02-22 21:37:03,806 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 21:37:03,806 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 21:37:03,807 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 21:37:03,807 | INFO | Total Rows Processed : 9
+2026-02-22 21:37:03,807 | INFO | Valid Rows           : 7
+2026-02-22 21:37:03,807 | INFO | Rejected Rows        : 2
+2026-02-22 21:37:03,808 | INFO | Duration (seconds)   : 0.0022
+2026-02-22 21:37:03,808 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-22 21:37:03,808 | INFO | Contract Version     : 1.0
+2026-02-22 21:37:03,808 | INFO | Contract Field Count : 2
+2026-02-22 21:37:03,808 | INFO | spend -> 1 violations
+2026-02-22 21:37:03,808 | INFO | city -> 1 violations
+2026-02-22 21:37:03,809 | INFO | ---------------------------------
+2026-02-22 21:37:03,809 | INFO | PIPELINE EXECUTION END
+2026-02-22 21:37:03,809 | INFO | ===================================
+2026-02-22 21:56:59,929 | INFO | ===================================
+2026-02-22 21:56:59,929 | INFO | PIPELINE EXECUTION START
+2026-02-22 21:56:59,930 | INFO | Loaded Contract Version: 1.0
+2026-02-22 21:56:59,930 | WARNING | Extra fields detected (not in contract): {'name', 'id', 'age'}
+2026-02-22 21:56:59,930 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-22 21:56:59,930 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-22 21:56:59,931 | INFO | ---------- RUN SUMMARY ----------
+2026-02-22 21:56:59,932 | INFO | Total Rows Processed : 9
+2026-02-22 21:56:59,932 | INFO | Valid Rows           : 7
+2026-02-22 21:56:59,932 | INFO | Rejected Rows        : 2
+2026-02-22 21:56:59,932 | INFO | Duration (seconds)   : 0.0025
+2026-02-22 21:56:59,932 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-22 21:56:59,932 | INFO | Contract Version     : 1.0
+2026-02-22 21:56:59,932 | INFO | Contract Field Count : 2
+2026-02-22 21:56:59,932 | INFO | spend -> 1 violations
+2026-02-22 21:56:59,932 | INFO | city -> 1 violations
+2026-02-22 21:56:59,932 | INFO | ---------------------------------
+2026-02-22 21:56:59,932 | INFO | PIPELINE EXECUTION END
+2026-02-22 21:56:59,933 | INFO | ===================================
+2026-02-22 22:07:36,600 | INFO | ===================================
+2026-02-22 22:07:36,601 | INFO | PIPELINE EXECUTION START
+2026-02-22 22:07:36,601 | INFO | Loaded Contract Version: 1.0
+2026-02-22 22:51:36,813 | INFO | ===================================
+2026-02-22 22:51:36,814 | INFO | PIPELINE EXECUTION START
+2026-02-22 22:51:36,814 | INFO | Loaded Contract Version: 1.0
+2026-02-22 22:51:36,814 | ERROR | CONTRACT SCHEMA FAILURE: Schema mismatch - Missing fields: {'spend'}
+2026-02-23 08:07:35,918 | INFO | ===================================
+2026-02-23 08:07:35,919 | INFO | PIPELINE EXECUTION START
+2026-02-23 08:07:35,928 | INFO | Loaded Contract Version: 1.1
+2026-02-23 08:07:35,928 | ERROR | Contract version mismatch. Expected 1.0, but received 1.1
+2026-02-23 12:05:41,765 | INFO | ===================================
+2026-02-23 12:05:41,766 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:05:41,772 | INFO | Loaded Contract Version: 1.1
+2026-02-23 12:05:41,773 | ERROR | Contract version mismatch. Expected 1.0, but received 1.1
+2026-02-23 12:06:16,001 | INFO | ===================================
+2026-02-23 12:06:16,002 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:06:16,013 | INFO | Loaded Contract Version: 1.0
+2026-02-23 12:09:47,660 | INFO | ===================================
+2026-02-23 12:09:47,661 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:09:47,661 | INFO | Loaded Contract Version: 1.0
+2026-02-23 12:09:47,678 | WARNING | Extra fields detected (not in contract): {'age', 'id', 'name'}
+2026-02-23 12:09:47,678 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-23 12:09:47,679 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-23 12:09:47,680 | INFO | ---------- RUN SUMMARY ----------
+2026-02-23 12:09:47,680 | INFO | Total Rows Processed : 9
+2026-02-23 12:09:47,680 | INFO | Valid Rows           : 7
+2026-02-23 12:09:47,681 | INFO | Rejected Rows        : 2
+2026-02-23 12:09:47,681 | INFO | Duration (seconds)   : 0.0197
+2026-02-23 12:09:47,681 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-23 12:09:47,681 | INFO | Contract Version     : 1.0
+2026-02-23 12:09:47,681 | INFO | Contract Field Count : 2
+2026-02-23 12:09:47,681 | INFO | spend -> 1 violations
+2026-02-23 12:09:47,681 | INFO | city -> 1 violations
+2026-02-23 12:09:47,681 | INFO | ---------------------------------
+2026-02-23 12:09:47,682 | INFO | PIPELINE EXECUTION END
+2026-02-23 12:09:47,682 | INFO | ===================================
+2026-02-23 12:34:24,139 | INFO | ===================================
+2026-02-23 12:34:24,139 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:34:24,140 | INFO | Loaded Contract Version: 1.0
+2026-02-23 12:34:24,141 | WARNING | Extra fields detected (not in contract): {'age', 'name', 'id'}
+2026-02-23 12:34:24,141 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-23 12:34:24,142 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-23 12:34:24,143 | INFO | ---------- RUN SUMMARY ----------
+2026-02-23 12:34:24,143 | INFO | Total Rows Processed : 9
+2026-02-23 12:34:24,143 | INFO | Valid Rows           : 7
+2026-02-23 12:34:24,143 | INFO | Rejected Rows        : 2
+2026-02-23 12:34:24,143 | INFO | Duration (seconds)   : 0.004
+2026-02-23 12:34:24,143 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-23 12:34:24,143 | INFO | Contract Version     : 1.0
+2026-02-23 12:34:24,143 | INFO | Contract Field Count : 2
+2026-02-23 12:34:24,143 | INFO | spend -> 1 violations
+2026-02-23 12:34:24,143 | INFO | city -> 1 violations
+2026-02-23 12:34:24,143 | INFO | ---------------------------------
+2026-02-23 12:34:24,143 | INFO | PIPELINE EXECUTION END
+2026-02-23 12:34:24,144 | INFO | ===================================
+2026-02-23 12:34:47,276 | INFO | ===================================
+2026-02-23 12:34:47,276 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:34:47,278 | INFO | Loaded Contract Version: 1.1
+2026-02-23 12:34:47,278 | ERROR | Contract version mismatch. Expected 1.0, but received 1.1
+2026-02-23 12:42:46,555 | INFO | ===================================
+2026-02-23 12:42:46,555 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:42:46,557 | INFO | Loaded Contract Version: 1.1
+2026-02-23 12:42:46,557 | WARNING | Extra fields detected (not in contract): {'name', 'age', 'id'}
+2026-02-23 12:42:46,557 | ERROR | Rejected row: {'id': '8', 'name': 'Mary', 'age': '28', 'city': 'Calgary', 'spend': 'abc'} | Reason: Invalid int for field: spend
+2026-02-23 12:42:46,557 | ERROR | Rejected row: {'id': '9', 'name': 'Steve', 'age': '33', 'city': '', 'spend': '1500'} | Reason: Missing required field: city
+2026-02-23 12:42:46,559 | INFO | ---------- RUN SUMMARY ----------
+2026-02-23 12:42:46,559 | INFO | Total Rows Processed : 9
+2026-02-23 12:42:46,559 | INFO | Valid Rows           : 7
+2026-02-23 12:42:46,559 | INFO | Rejected Rows        : 2
+2026-02-23 12:42:46,560 | INFO | Duration (seconds)   : 0.0035
+2026-02-23 12:42:46,560 | INFO | ---------- CONTRACT VALIDATION SUMMARY ----------
+2026-02-23 12:42:46,560 | INFO | Contract Version     : 1.1
+2026-02-23 12:42:46,560 | INFO | Contract Field Count : 2
+2026-02-23 12:42:46,560 | INFO | spend -> 1 violations
+2026-02-23 12:42:46,561 | INFO | city -> 1 violations
+2026-02-23 12:42:46,561 | INFO | ---------------------------------
+2026-02-23 12:42:46,561 | INFO | PIPELINE EXECUTION END
+2026-02-23 12:42:46,561 | INFO | ===================================
+2026-02-23 12:44:00,375 | INFO | ===================================
+2026-02-23 12:44:00,375 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:44:00,377 | INFO | Loaded Contract Version: 0.9
+2026-02-23 12:44:00,377 | ERROR | Major version mismatch. Expected 1.0, but received 0.9
+2026-02-23 12:45:43,065 | INFO | ===================================
+2026-02-23 12:45:43,066 | INFO | PIPELINE EXECUTION START
+2026-02-23 12:45:43,082 | INFO | Loaded Contract Version: 2.0
+2026-02-23 12:45:43,082 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:14:56,092 | INFO | ===================================
+2026-02-23 14:14:56,093 | INFO | PIPELINE EXECUTION START
+2026-02-23 14:14:56,093 | INFO | Loaded Contract Version: 2.0
+2026-02-23 14:14:56,093 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:15:05,266 | INFO | ===================================
+2026-02-23 14:15:05,266 | INFO | PIPELINE EXECUTION START
+2026-02-23 14:15:05,267 | INFO | Loaded Contract Version: 2.0
+2026-02-23 14:15:05,267 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:26:46,562 | INFO | ===================================
+2026-02-23 14:26:46,563 | INFO | PIPELINE EXECUTION START
+2026-02-23 14:26:46,563 | INFO | Loaded Contract Version: 2.0
+2026-02-23 14:26:46,563 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:28:11,616 | ERROR | Input file does not exist: missing.csv
+2026-02-23 14:28:11,616 | ERROR | Input file does not exist
+2026-02-23 14:28:11,617 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 14:28:11,617 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 14:28:11,617 | ERROR | GOVERNANCE EXIT CODE: 1
+2026-02-23 14:28:11,617 | INFO | ===================================
+2026-02-23 14:30:58,883 | INFO | ===================================
+2026-02-23 14:30:58,883 | INFO | PIPELINE EXECUTION START
+2026-02-23 14:30:58,883 | INFO | Loaded Contract Version: 2.0
+2026-02-23 14:30:58,883 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:30:58,884 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 14:30:58,884 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 14:30:58,884 | ERROR | GOVERNANCE EXIT CODE: 2
+2026-02-23 14:30:58,884 | INFO | ===================================
+2026-02-23 14:31:09,759 | ERROR | Input file does not exist: missing.csv
+2026-02-23 14:31:09,759 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 14:31:09,760 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 14:31:09,760 | ERROR | GOVERNANCE EXIT CODE: 1
+2026-02-23 14:31:09,760 | INFO | ===================================
+2026-02-23 14:41:00,243 | INFO | ===================================
+2026-02-23 14:41:00,243 | INFO | PIPELINE EXECUTION START
+2026-02-23 14:41:00,245 | INFO | Loaded Contract Version: 2.0
+2026-02-23 14:41:00,246 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 14:41:00,246 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 14:41:00,246 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 14:41:00,246 | ERROR | GOVERNANCE EXIT CODE: 2
+2026-02-23 14:41:00,246 | INFO | ===================================
+2026-02-23 16:16:25,683 | INFO | ===================================
+2026-02-23 16:16:25,684 | INFO | PIPELINE EXECUTION START
+2026-02-23 16:16:25,684 | INFO | Loaded Compatibility Policy
+2026-02-23 16:16:25,684 | INFO | Expected Version: 1.0
+2026-02-23 16:16:25,685 | INFO | Compatibility Mode: strict
+2026-02-23 16:16:25,685 | INFO | Loaded Contract Version: 2.0
+2026-02-23 16:16:25,685 | ERROR | Major version mismatch. Expected 1.0, but received 2.0
+2026-02-23 16:16:25,685 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 16:16:25,686 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 16:16:25,686 | ERROR | GOVERNANCE EXIT CODE: 2
+2026-02-23 16:16:25,686 | INFO | ===================================
+2026-02-23 20:35:04,804 | INFO | ===================================
+2026-02-23 20:35:04,804 | INFO | PIPELINE EXECUTION START
+2026-02-23 20:35:04,805 | INFO | Loaded Compatibility Policy
+2026-02-23 20:35:04,805 | INFO | Expected Version: 1.0
+2026-02-23 20:35:04,805 | INFO | Compatibility Mode: strict
+2026-02-23 20:42:57,407 | INFO | ===================================
+2026-02-23 20:42:57,408 | INFO | PIPELINE EXECUTION START
+2026-02-23 20:42:57,408 | INFO | Expected Version: 1.0
+2026-02-23 20:42:57,408 | INFO | Compatibility Mode: strict
+2026-02-23 20:42:57,409 | INFO | Loaded Contract Version: 2.0
+2026-02-23 20:42:57,409 | INFO | Version Comparison Result: MAJOR_UPGRADE
+2026-02-23 20:42:57,409 | ERROR | COMPATIBILITY FAILURE: Mode 'strict' does not allow 'MAJOR_UPGRADE'
+2026-02-23 20:42:57,409 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 20:42:57,409 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 20:42:57,410 | ERROR | GOVERNANCE EXIT CODE: 2
+2026-02-23 20:42:57,410 | INFO | ===================================
+2026-02-23 21:05:57,344 | INFO | ===================================
+2026-02-23 21:05:57,345 | INFO | PIPELINE EXECUTION START
+2026-02-23 21:05:57,361 | INFO | Expected Version: 1.0
+2026-02-23 21:05:57,361 | INFO | Compatibility Mode: strict
+2026-02-23 21:05:57,369 | INFO | Loaded Contract Version: 2.0
+2026-02-23 21:05:57,370 | INFO | Version Comparison Result: MAJOR_UPGRADE
+2026-02-23 21:05:57,370 | INFO | Compatibility Decision: {'expected_version': '1.0', 'contract_version': '2.0', 'comparison_result': 'MAJOR_UPGRADE', 'compatibility_mode': 'strict', 'allowed': False, 'decision': 'HARD_FAIL'}
+2026-02-23 21:05:57,370 | ERROR | COMPATIBILITY FAILURE: {'expected_version': '1.0', 'contract_version': '2.0', 'comparison_result': 'MAJOR_UPGRADE', 'compatibility_mode': 'strict', 'allowed': False, 'decision': 'HARD_FAIL'}
+2026-02-23 21:05:57,371 | ERROR | PIPELINE TERMINATED BEFORE DATA PROCESSING
+2026-02-23 21:05:57,371 | ERROR | NO ROWS WERE PROCESSED
+2026-02-23 21:05:57,371 | ERROR | GOVERNANCE EXIT CODE: 2
+2026-02-23 21:05:57,371 | INFO | ===================================
