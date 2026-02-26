@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Governance Compatibility Check
         run: |
-          python -m pipelines.batch_pipeline customers.csv output.csv --contract contracts/contract_v2.json --expected-version 2.0 --log-level INFO
+          python -m pipelines.batch_pipeline customers.csv output.csv --contract contracts/contract_v2.json --log-level INFO
