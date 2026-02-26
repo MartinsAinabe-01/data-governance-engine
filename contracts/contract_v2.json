@@ -6,7 +6,7 @@
       "required": true
     },
     "spend": {
-      "type": "string",
+      "type": "int",
       "required": true
     }
   }
