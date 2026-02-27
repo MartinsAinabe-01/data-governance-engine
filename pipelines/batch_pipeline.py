@@ -111,6 +111,8 @@ if __name__ == "__main__":
         contract = json.load(f)
 
     contract_version = contract.get("version")
+    contract_metadata = contract.get("metadata", {})
+    logger.info(f"Contract Metadata: {contract_metadata}")
     logger.info(f"Contract Version: {contract_version}")
 
     # -----------------------------------------------------------
@@ -227,7 +229,8 @@ if __name__ == "__main__":
         "drift_category": impact_result["drift_category"],
         "requires_review": impact_result["requires_review"],
         "blocks_deployment": impact_result["blocks_deployment"],
-        "cicd_gate": gate_result
+        "cicd_gate": gate_result,
+        "contract_metadata": contract_metadata
     }
 
     logger.info(f"Compatibility Decision: {compatibility_decision}")

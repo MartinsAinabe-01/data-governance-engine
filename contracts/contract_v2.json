@@ -6,8 +6,15 @@
       "required": true
     },
     "spend": {
-      "type": "string",
+      "type": "int",
       "required": true
     }
+  },
+  "metadata": {
+    "data_owner": "finance-team",
+    "pii": false,
+    "security_level": "internal",
+    "retention_days": 365,
+    "sla_minutes": 60
   }
 }
