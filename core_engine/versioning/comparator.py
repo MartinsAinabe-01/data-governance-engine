@@ -21,4 +21,4 @@ def compare_versions(contract_version, expected_version):
     if con_minor < exp_minor:
         return "MINOR_DOWNGRADE"
 
-    return "EQUAL"
+    return "EXACT_MATCH"
